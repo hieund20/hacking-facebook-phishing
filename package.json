@@ -4,6 +4,12 @@
   "description": "Try to learn phishing method in hacking ^^",
   "main": "main.js",
   "scripts": {
+    "build": "",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hieund20",
