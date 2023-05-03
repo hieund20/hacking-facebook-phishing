@@ -11,19 +11,40 @@
   </head>
   <body>
     <div class="container">
-      <h1>Log in to Facebook</h1>
+      <div class="logo">
+        <img
+          src="https://www.facebook.com/images/fb_icon_325x325.png"
+          alt="Facebook logo"
+        />
+        <h1>Facebook</h1>
+      </div>
       <form id="login-form">
-        <label for="email">Email or Phone</label>
-        <input type="text" id="email" name="email" required />
-
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required />
-
+        <div class="form-group">
+          <label for="email">Email address or phone number</label>
+          <input type="text" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required />
+        </div>
         <button type="submit">Log In</button>
+        <div class="separator">
+          <span>or</span>
+        </div>
+        <button type="button" class="secondary">Create New Account</button>
+        <a href="#">Forgot Password?</a>
       </form>
-      <a href="#">Forgot Password?</a>
-      <hr />
-      <p>Don't have an account? <a href="#">Sign Up</a></p>
+      <div class="language">
+        <a href="#">English (US)</a>
+        <a href="#">Español</a>
+        <a href="#">Français (France)</a>
+        <a href="#">中文(简体)</a>
+        <a href="#">العربية</a>
+        <a href="#">Português (Brasil)</a>
+        <a href="#">Italiano</a>
+        <a href="#">Deutsch</a>
+        <a href="#">हिन्दी</a>
+      </div>
     </div>
 
     <!-- Initialize Firebase -->
