@@ -1,0 +1,11 @@
+{
+  "name": "hack-facebook-login",
+  "version": "1.0.0",
+  "description": "Try to learn phishing method in hacking ^^",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hieund20",
+  "license": "MIT"
+}
