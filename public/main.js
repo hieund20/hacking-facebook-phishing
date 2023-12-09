@@ -14,5 +14,5 @@ form.addEventListener("submit", (event) => {
   console.log("password", password)
 
   // Redirect to user profile page
-  alert("Your Facebook account had been hacked :)))");
+  // alert("Your Facebook account had been hacked :)))");
 });
